@@ -10,7 +10,7 @@ public class AboutMe {
         boolean isMarried = false;
         int averageGrade = 5;
 
-        System.out.printf("%s %s %s. %s %s %s %s. %s %s %s %s %s %s. %s %s. %s %d. ", "My name is", firstName, lastName, "My Birthday is on", birthday, "and my gender is", gender, "My hobbies are", hobbies[0], hobbies[1], hobbies[2], "and", hobbies[3], "Am i married?:", isMarried, "My average grade is", averageGrade);
+        System.out.printf("My name is %s %s. My Birthday is on %s and my gender is %s. My hobbies are %s %s %s and %s. Am I married?: %s. My average grade is %d.", firstName, lastName, birthday, gender, hobbies[0], hobbies[1], hobbies[2], hobbies[3], isMarried, averageGrade);
     }
 
 }
